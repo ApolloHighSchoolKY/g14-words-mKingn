@@ -35,6 +35,11 @@ public class Words
 		//for every Word in the ArrayList "wordList"
 
 			//if the length of the "theWord" is the same as the parameter "size"
+			for(int i : wordList)
+			{
+				if(wordList[i].length == size);
+					count++;
+			}
 
 		return count;
 	}
@@ -60,7 +65,11 @@ public class Words
 		//for every Word in the ArrayList "words"
 
 			//if the number of vowels in "theWord" is the same as the parameter "numVowels"
-
+			for(int i: wordList)
+			{
+				if(wordList[i].getNumVowels == numVowels);
+					count++;
+			}
 
 		return count;
 	}
